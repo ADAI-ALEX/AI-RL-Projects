@@ -1,0 +1,6 @@
+gymnasium==0.29.1
+stable-baselines3[extra]==2.2.1
+pygame==2.5.2
+numpy==1.26.4
+matplotlib==3.8.2
+shimmy>=0.3.0
