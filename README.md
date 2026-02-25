@@ -5,7 +5,7 @@ This repo is a collection of a few reinforcement learning projects I've been wor
 ## Project 1: Obstacle Avoidance
 
 ### Visuals
-| Simulation Demo | Dashboard Preview |
+| Simulation Demo | Controller Preview |
 | :---: | :---: |
 | <img src="Media/P01_Demo.gif" width="400"> | <img src="Media/P01_Controller.PNG" width="400"> |
 
@@ -21,7 +21,7 @@ I built an AI that learns to navigate a grid filled with random obstacles to rea
 ## Project 2: Predator vs. Prey
 
 ### Visuals
-| Simulation Demo | Dashboard Preview |
+| Simulation Demo | Controller Preview |
 | :---: | :---: |
 | <img src="Media/P02_Demo.gif" width="400"> | <img src="Media/P02_Controller.PNG" width="400"> |
 
