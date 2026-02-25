@@ -5,8 +5,8 @@ This repo is a collection of a few reinforcement learning projects I've been wor
 ## Project 1: Obstacle Avoidance
 
 ### Dashboard & Simulation
-![Controller](Media/P01_Controller.png)
-![Simulation](Media/P01_Demo.gif)
+<img src="Media/P01_Controller.PNG" width="400">
+<img src="Media/P01_Demo.gif" width="400">
 
 I built an AI that learns to navigate a grid filled with random obstacles to reach a goal. I went through a few iterations to get the behavior right:
 
@@ -20,8 +20,8 @@ I built an AI that learns to navigate a grid filled with random obstacles to rea
 ## Project 2: Predator vs. Prey
 
 ### Dashboard & Simulation
-![Controller](Media/P02_Controller.png)
-![Simulation](Media/P02_Demo.gif)
+<img src="Media/P02_Controller.png" width="400">
+<img src="Media/P02_Demo.gif" width="400">
 
 For the next step, I wanted to try Multi-Agent Reinforcement Learning (MARL). This project features two separate neural networks training in the same arena against each other.
 
