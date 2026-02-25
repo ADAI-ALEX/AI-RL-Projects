@@ -3,6 +3,11 @@
 This repo is a collection of a few reinforcement learning projects I've been working on to learn more about AI training. Everything is built using Python, Stable Baselines3 (PPO), and Gymnasium.
 
 ## Project 1: Obstacle Avoidance
+
+### Dashboard & Simulation
+![Controller](Media/P01_Controller.png)
+![Simulation](Media/P01_Demo.gif)
+
 I built an AI that learns to navigate a grid filled with random obstacles to reach a goal. I went through a few iterations to get the behavior right:
 
 * **Model 1 (8-Sensor Radar):** The baseline model. It only knew what was directly next to it, which made it act pretty blind.
@@ -10,7 +15,14 @@ I built an AI that learns to navigate a grid filled with random obstacles to rea
 * **Model 2.1 (Stable Train):** Fixed a major issue where the AI would get stuck in infinite loops. It was too afraid to backtrack because of the point penalties, so I had to rebalance the reward system.
 * **Model 3 (Spatial Awareness):** The final and most advanced version, capable of actually planning a path out of U-shaped traps and complex obstacle clusters.
 
+---
+
 ## Project 2: Predator vs. Prey
+
+### Dashboard & Simulation
+![Controller](Media/P02_Controller.png)
+![Simulation](Media/P02_Demo.gif)
+
 For the next step, I wanted to try Multi-Agent Reinforcement Learning (MARL). This project features two separate neural networks training in the same arena against each other.
 
 * **The Predator:** Learns to chase down the prey as fast as possible.
